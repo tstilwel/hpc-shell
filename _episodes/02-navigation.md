@@ -1,6 +1,6 @@
 ---
-title: "Moving around and looking at things"
-teaching: 15 
+title: "Navigating the filesystem using the shell"
+teaching: 25 
 exercises: 5
 questions:
 - "How do I navigate and look around the system?"
@@ -234,7 +234,7 @@ $ ls -l
 ```
 {: .language-bash}
 ```
-drwxr-xr-x 2 yourUsername tc001 4096 Jan 14 17:31 documents
+drwxr-xr-x 2 yourUsername users 4096 Jan 14 17:31 documents
 ```
 {: .output}
 
@@ -252,15 +252,15 @@ $ ls -l -a
 ```
 {{ site.workshop_host_prompt }} ls -la
 total 36
-drwx--S--- 5 yourUsername tc001 4096 Nov 28 09:58 .
-drwxr-x--- 3 root         tc001 4096 Nov 28 09:40 ..
--rw-r--r-- 1 yourUsername tc001   18 Dec  6  2016 .bash_logout
--rw-r--r-- 1 yourUsername tc001  193 Dec  6  2016 .bash_profile
--rw-r--r-- 1 yourUsername tc001  231 Dec  6  2016 .bashrc
-drwxr-sr-x 2 yourUsername tc001 4096 Nov 28 09:58 documents
--rw-r--r-- 1 yourUsername tc001  334 Mar  3  2017 .emacs
-drwxr-xr-x 4 yourUsername tc001 4096 Aug  2  2016 .mozilla
-drwx--S--- 2 yourUsername tc001 4096 Nov 28 09:58 .ssh
+drwx--S--- 5 yourUsername users 4096 Nov 28 09:58 .
+drwxr-x--- 3 root         users 4096 Nov 28 09:40 ..
+-rw-r--r-- 1 yourUsername users   18 Dec  6  2016 .bash_logout
+-rw-r--r-- 1 yourUsername users  193 Dec  6  2016 .bash_profile
+-rw-r--r-- 1 yourUsername users  231 Dec  6  2016 .bashrc
+drwxr-sr-x 2 yourUsername users 4096 Nov 28 09:58 documents
+-rw-r--r-- 1 yourUsername users  334 Mar  3  2017 .emacs
+drwxr-xr-x 4 yourUsername users 4096 Aug  2  2016 .mozilla
+drwx--S--- 2 yourUsername users 4096 Nov 28 09:58 .ssh
 ```
 {: .output}
 
@@ -281,8 +281,8 @@ $ ls -l -a ~/documents
 {: .language-bash}
 
 ```
-drwxr-sr-x 2 yourUsername tc001 4096 Nov 28 09:58 .
-drwx--S--- 5 yourUsername tc001 4096 Nov 28 09:58 ..
+drwxr-sr-x 2 yourUsername users 4096 Nov 28 09:58 .
+drwx--S--- 5 yourUsername users 4096 Nov 28 09:58 ..
 ```
 {: .output}
 
