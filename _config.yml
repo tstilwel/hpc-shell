@@ -109,13 +109,15 @@ highlighter: rouge
 # * workshop_host_homedir - The location of the home directory on the remote host
 #
 # Example: Graham cluster at Compute Canada, University of Waterloo
-workshop_host: "Graham"
-workshop_host_id: "ComputeCanada_Graham"
-workshop_host_login: "graham.computecanada.ca"
-workshop_host_location: "University of Waterloo"
-workshop_host_prompt: "[yourUsername@gra-login1 ~]$ "
+# Example: Turing cluster at Norfolk, Old Dominion University 
+workshop_host: "Turing"
+workshop_host_id: "ODU_Turing"
+workshop_host_login: "turing.hpc.odu.edu"
+workshop_host_location: "Old Dominion University"
+workshop_host_prompt: "[yourUsername@turing1 ~]$ "
 workshop_host_homedir: "/home"
-workshop_sched_id: "ComputeCanada_Graham_slurm"
+workshop_sched_id: "ODU_Turing_intro"
+#workshop_sched_id: "Canada_Graham_slurm"
 # Example: Cirrus at EPCC, The University of Edinburgh
 # workshop_host: "Cirrus"
 # workshop_host_id: "EPCC_Cirrus"
