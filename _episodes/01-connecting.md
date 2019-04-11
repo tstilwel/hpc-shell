@@ -1,14 +1,15 @@
 ---
-title: "Connecting to the remote HPC system"
-teaching: 20 
+title: "Connecting to Turing"
+teaching: 15 
 exercises: 10
 questions:
 - "How do I open a terminal?"
-- "How do I connect to a remote computer?"
+- "How do I connect to Turing?"
 objectives:
 - "Connect to a remote HPC system."
 keypoints:
 - "To connect to a remote HPC system using SSH: `ssh yourUsername@remote.computer.address`"
+- "To connect to Turing using SSH: `ssh yourUsername@turing.hpc.odu.edu`"
 ---
 
 ## Opening a Terminal
@@ -49,27 +50,6 @@ MS-DOS (Microsoft Disk Operating System) it does not have an SSH tool built into
 to be installed. There are a variety of programs that can be used for this, two common ones we
 describe here, as follows:
 
-#### MobaXterm
-
-MobaXterm is a terminal window emulator for Windows and the home edition can be downloaded for free
-from [mobatek.net](https://mobaxterm.mobatek.net/download-home-edition.html). If you follow the link
-you will note that there are two editions of the home version available: Portable and Installer. The
-portable edition puts all MobaXterm content in a folder on the desktop (or anywhere else you would
-like it) so that it is easy add plug-ins or remove the software. The installer edition adds
-MobaXterm to your Windows installation as any other program you might install. If you are not sure
-that you will continue to use MobaXterm in the future you are likely best to choose the portable
-edition.
-
-Download the version that you would like to use and install it as you would any other software on
-your Windows installation. Once the software is installed you can run it by either opening the
-folder installed with the portable edition and double-clicking on the file named
-*MobaXterm_Personal_10.2* or, if the installer edition was used, finding the executable through
-either the start menu or the Windows search option.
-
-Once the MobaXterm window is open you should see a large button in the middle of that window with
-the text "Start Local Terminal". Click this button and you will have a terminal window at your
-disposal.
-
 #### PuTTY
 
 It is strictly speaking not necessary to have a terminal running on your local computer in order to
@@ -95,6 +75,27 @@ right-click of the mouse to paste content from the clipboard to the PuTTY termin
 
 For those logging in with PuTTY it would likely be best to cover the terminal basics already
 mentioned above before moving on to navigating the remote system.
+
+#### MobaXterm
+
+MobaXterm is a terminal window emulator for Windows and the home edition can be downloaded for free
+from [mobatek.net](https://mobaxterm.mobatek.net/download-home-edition.html). If you follow the link
+you will note that there are two editions of the home version available: Portable and Installer. The
+portable edition puts all MobaXterm content in a folder on the desktop (or anywhere else you would
+like it) so that it is easy add plug-ins or remove the software. The installer edition adds
+MobaXterm to your Windows installation as any other program you might install. If you are not sure
+that you will continue to use MobaXterm in the future you are likely best to choose the portable
+edition.
+
+Download the version that you would like to use and install it as you would any other software on
+your Windows installation. Once the software is installed you can run it by either opening the
+folder installed with the portable edition and double-clicking on the file named
+*MobaXterm_Personal_10.2* or, if the installer edition was used, finding the executable through
+either the start menu or the Windows search option.
+
+Once the MobaXterm window is open you should see a large button in the middle of that window with
+the text "Start Local Terminal". Click this button and you will have a terminal window at your
+disposal.
 
 ## Logging onto the system
 
